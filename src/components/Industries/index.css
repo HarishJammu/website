@@ -1,0 +1,839 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@600&display=swap');
+.about-container{
+    background-color: #ffffff;
+    height: auto;
+    width: 100vw;
+}
+
+.industrie-us-title-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 60vh;
+    width: 100vw;
+    background-image:url("https://res.cloudinary.com/dsjtmv0m8/image/upload/v1684141694/industries-slide1440_sv0ltk.jpg");
+    position: relative;
+    animation: slide 2s ease-in-out;
+}
+  @keyframes slide {
+    0% {
+      left: 100%;
+    }
+    100% {
+      left: 0;
+    }
+  }
+@media screen and (min-width:1025px) and (max-width:1440px){
+    .industrie-us-title-card{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        height: 65vh;
+        width: 100vw;
+        background-image: url("https://res.cloudinary.com/dsjtmv0m8/image/upload/v1684147562/industries-slide1400_ozv8yb.jpg");
+    background-position: center;
+    background-size: cover;
+    }
+    
+}
+@media screen and (min-width:300px)and (max-width:365px){
+    .industrie-us-title-card{
+        height: 30vh;
+        width: 100vw;
+        background-image: url("https://res.cloudinary.com/dsjtmv0m8/image/upload/v1684147562/industries-slide365_eoynvk.jpg");
+        background-position: center;
+        background-size: cover;
+    }
+}
+@media screen and (min-width:366px)and (max-width:475px){
+    .industrie-us-title-card{
+        height: 33vh;
+        width: 100vw;
+        background-image: url("https://res.cloudinary.com/dsjtmv0m8/image/upload/v1684147562/industries-slide475_tubonh.jpg");
+    background-position: center;
+    background-size: cover;
+    }
+}
+@media screen and (min-width:476px)and (max-width:768px){
+    .industrie-us-title-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 40vh;
+        width: 100vw;
+        background-image: url("https://res.cloudinary.com/dsjtmv0m8/image/upload/v1684147562/industries-slide768_bwtbd4.jpg");
+    background-position: center;
+    background-size: cover;
+    }
+}
+
+@media screen and (min-width:769px)and (max-width:1024px){
+    .industrie-us-title-card{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 50vh;
+        width: 100vw;
+        background-image: url("https://res.cloudinary.com/dsjtmv0m8/image/upload/v1684147562/industries-slide1024_ck0ipp.jpg");
+    background-position: center;
+    background-size: cover;
+    }
+}
+
+
+
+
+.about-details{
+    display: flex;
+    flex-direction:row;
+    justify-content:flex-start;
+    height: 70vh;
+    width:100vw;
+    background-color: #ffffff;
+    margin-top: 80px;
+}
+
+.Industries-style{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 50px;
+    color: #030a11d8;
+    font-weight:700;
+    padding-left: 20px;
+}
+@media screen and (min-width:1025px) and (max-width:1440px){
+    .Industries-style{
+        font-family:sans-serif;
+        font-size: 50px;
+        color: #030a11d8;
+        font-weight:700;
+        padding-left: 40px;
+    }
+    
+}
+@media screen and (min-width:300px)and (max-width:365px){
+    .Industries-style{
+        font-size: 35px;
+        color: #030a11d8;
+        font-weight: bold;
+        padding-left: 20px;
+    }
+}
+@media screen and (min-width:366px)and (max-width:475px){
+    .Industries-style{
+        font-size: 30px;
+        color: #030a11d8;
+        font-weight: bold;
+        padding-left: 20px;
+    }
+}
+@media screen and (min-width:476px)and (max-width:768px){
+    .Industries-style{
+        font-size: 40px;
+        color: #030a11d8;
+        font-weight: bold;
+        padding-left: 30px;
+    }
+}
+@media screen and (min-width:769px)and (max-width:1024px){
+    .Industries-style{
+        font-size: 65px;
+        color: #030a11d8;
+        font-weight: bold;
+        padding-left: 20px;
+    }
+}
+.Service-provides{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.Service-tags{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 25px;
+}
+
+.industries-title-service{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    color: #f80f0f;
+    padding-top: 15px;
+}
+@media screen and (min-width:1025px) and (max-width:1440px){
+    .industries-title-service{
+        font-size: 35px;
+        color: #f80f0f;
+        padding-top: 15px;
+        font-weight: 550;
+    }
+    
+}
+@media screen and (min-width:300px)and (max-width:365px){
+    .industries-title-service{
+        font-size: 18px;
+        color: #f80f0f;
+        padding-top: 15px;
+    }
+}
+@media screen and (min-width:366px)and (max-width:475px){
+    .industries-title-service{
+        font-size: 20px;
+        color: #f80f0f;
+        padding-top: 15px;
+    }
+}
+@media screen and (min-width:476px)and (max-width:768px){
+    .industries-title-service{
+        font-size: 25px;
+        color: #f80f0f;
+        padding-top: 15px;
+    }
+}
+@media screen and (min-width:769px)and (max-width:1024px){
+    .industries-title-service{
+        font-size: 32px;
+        color: #f80f0f;
+        padding-top: 15px;
+    }
+}
+.Industries-title-Explore{
+    font-family: 'Rajdhani', sans-serif;
+    color: #000001d8;
+    font-size: 25px;
+    font-weight: bold;
+}
+@media screen and (min-width:1025px) and (max-width:1440px){
+    .Industries-title-Explore{
+        font-family: 'Rajdhani', sans-serif;
+        color: #000001d8;
+        font-size: 30px;
+        font-weight: bold;
+    }
+    
+}
+@media screen and (min-width:300px)and (max-width:365px){
+    .Industries-title-Explore{
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 22px;
+        color: #030a11d8;
+        font-weight: bold;
+    }
+}
+@media screen and (min-width:366px)and (max-width:475px){
+    .Industries-title-Explore{
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 23px;
+        color: #030a11d8;
+        font-weight: bold;
+    }
+}
+@media screen and (min-width:476px)and (max-width:768px){
+    .Industries-title-Explore{
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 30px;
+        color: #030a11d8;
+        font-weight: bold;
+    }
+}
+@media screen and (min-width:769px)and (max-width:1024px){
+    .Industries-title-Explore{
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 35px;
+        color: #030a11d8;
+        font-weight: bold;
+    }
+}
+
+.our-services-details{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.industries-card-details{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    height: auto;
+    width:31vw;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border-color: aliceblue;
+    margin-bottom: 20px;
+    transition: transform 0.5s;
+}
+.industries-card-details:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+  }
+@media screen and (min-width:1025px) and (max-width:1440px){
+    .industries-card-details{
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        height: auto;
+        width:27vw;
+        background-color: #ffffff;
+        margin-left: 50px;
+        margin-top: 30px;
+        margin-bottom:40px;
+        border-radius: 10px;
+        border-color: aliceblue;
+        margin-bottom: 20px;
+    }
+    
+}
+
+@media screen and (min-width:300px)and (max-width:365px){
+    .industries-card-details{
+        height: auto;
+        width: 100vw;
+        margin-left: 5px;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (min-width:366px)and (max-width:475px){
+    .industries-card-details{
+        height: auto;
+        width: 60vw;
+        margin-left: 10px;
+        margin-bottom: 20px;
+    }
+}
+@media screen and (min-width:476px)and (max-width:768px){
+    .industries-card-details{
+        height: auto;
+        width: 43vw;
+        margin-bottom: 20px;
+        margin-left: 22px;
+    }
+}
+@media screen and (min-width:769px)and (max-width:1024px){
+    .industries-card-details{
+        height: auto;
+        width: 30vw;
+        margin-left: auto;
+        margin-bottom: 20px;
+    }
+}
+.industries-images{
+    height:45vh;
+    width: 31vw;
+    border-top-right-radius:8px ;
+    border-top-left-radius:8px ;
+}
+@media screen and (min-width:1025px) and (max-width:1440px){
+    .industries-images{
+        height:43vh;
+        width: 27vw;
+    }
+    
+}
+@media screen and (min-width:300px)and (max-width:365px){
+    .industries-images{
+        height: 60vh;
+        width:80vw;
+    }
+}
+@media screen and (min-width:366px)and (max-width:475px){
+    .industries-images{
+        height: 45vh;
+        width: 75vw;
+
+
+    }
+}
+@media screen and (min-width:476px)and (max-width:768px){
+    .industries-images{
+        height: 40vh;
+        width: 43vw;
+    }
+}
+@media screen and (min-width:769px)and (max-width:1024px){
+    .industries-images{
+        height: 50vh;
+        width: 30vw;
+    }
+}
+.industries-it-consultancy-style-1{
+    display: flex;
+   flex-direction: row;
+   height: auto;
+   width: 31vw;
+   justify-content: center;
+   align-items: center;
+}
+@media screen and (min-width:1025px) and (max-width:1440px){
+    .industries-it-consultancy-style-1{
+        display: flex;
+       flex-direction: row;
+       height: auto;
+       width: 26vw;
+       padding-left: 9x;
+       justify-content: center;
+       align-items: center;
+    }
+    
+}
+@media screen and (min-width:300px)and (max-width:365px){
+    .industries-it-consultancy-style-1{
+        display: flex;
+       flex-direction: row;
+       height: auto;
+       width: 80vw;
+       justify-content: center;
+       align-items: center;
+    }
+}
+@media screen and (min-width:366px)and (max-width:475px){
+    .industries-it-consultancy-style-1{
+    display: flex;
+       flex-direction: row;
+       height: auto;
+       width: 75vw;
+       justify-content: center;
+       align-items: center;
+    }
+}
+@media screen and (min-width:476px)and (max-width:768px){
+    .industries-it-consultancy-style-1{
+        display: flex;
+       flex-direction: row;
+       height: auto;
+       width: 42vw;
+       justify-content: center;
+       align-items: center;
+    }
+}
+@media screen and (min-width:769px)and (max-width:1024px){
+    .industries-it-consultancy-style-1{
+        display: flex;
+       flex-direction: row;
+       height: auto;
+       width: 30vw;
+       justify-content: center;
+       align-items: center;
+       margin-left: auto;
+    }
+}
+.industries-it-consultancy-style-2{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.industries-card-title{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 20px;
+    color: #0e1012fb;
+    font-weight: bold;
+    padding-top: 10px;
+}
+@media screen and (min-width:1025px) and (max-width:1440px){
+    .industries-card-title{
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 21px;
+        color: #0e1012fb;
+        font-weight: bold;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    
+}
+
+@media screen and (min-width:300px)and (max-width:365px){
+    .industries-card-title{
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 18px;
+        color: #0e1012fb;
+        font-weight: bold;
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+}
+@media screen and (min-width:366px)and (max-width:475px){
+    .industries-card-title{
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 22px;
+        color: #0e1012fb;
+        font-weight: bold;
+        padding-top: 15px;
+        padding-bottom: 10px;
+        
+    }
+}
+@media screen and (min-width:476px)and (max-width:768px){
+    .industries-card-title{
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 20px;
+        color: #0e1012fb;
+        font-weight: bold;
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+}
+@media screen and (min-width:769px)and (max-width:1024px){
+    .industries-card-title{
+        font-family: 'Rajdhani', sans-serif;
+        font-size: 25px;
+        color: #0e1012fb;
+        font-weight: bold;
+        padding-top: 15px;
+        padding-bottom: 10px;
+    }
+}
+
+
+
+.industries-card-description{
+    font-family: "Noto Sans", sans-serif;
+    font-size: 16px;
+    color: #707071fb;
+    padding-left: 8px;
+    text-align: justify;
+}
+@media screen and (min-width:1025px) and (max-width:1440px){
+    .industries-card-description{
+        font-family: "Noto Sans", sans-serif;
+        font-size: 13px;
+        color: #707071fb;
+        padding-left: 9px;
+        text-align: justify;
+    }
+    
+}
+@media screen and (min-width:300px)and (max-width:365px){
+    .industries-card-description{
+        font-family:sans-serif;
+        font-size: 12px;
+        color: #707071fb;
+        padding-left: 8px;
+        text-align: justify;
+        
+    }
+}
+@media screen and (min-width:366px)and (max-width:475px){
+    .industries-card-description{
+        font-family: sans-serif;
+        font-size: 14px;
+        color: #707071fb;
+        padding-left: 10px;
+        text-align: justify;
+        
+    }
+}
+@media screen and (min-width:476px)and (max-width:768px){
+    .industries-card-description{
+        font-family: "Noto Sans", sans-serif;
+        font-size: 15px;
+        color: #707071fb;
+        text-align: justify;
+        
+    }
+}
+@media screen and (min-width:769px)and (max-width:1024px){
+    .industries-card-description{
+        font-family: sans-serif;
+        font-size: 16px;
+        color: #707071fb;
+        text-align: justify;
+        
+    }
+}
+
+.industries-Want-you-choose{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height:40vh;
+    width: 100vw;
+    background-color: #1f1c1c;
+}
+@media screen and (min-width:1025px) and (max-width:1440px){
+    .industries-Want-you-choose{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height:40vh;
+        width: 100vw;
+        margin-top: 25px;
+        background-color: #1f1c1c;
+    }
+    
+}
+@media screen and (min-width:300px) and (max-width:365px){
+    .industries-Want-you-choose{
+        display: flex;
+        flex-direction: column;
+        height:30vh;
+        width: 100vw;
+        background-color: #1f1c1c;
+        margin-top:20px;
+    
+    }
+}
+@media screen and (min-width:366px) and (max-width:475px){
+    .industries-Want-you-choose{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height:25vh;
+        width: 100vw;
+        background-color: #1f1c1c;
+        margin-top: 20px;
+    }
+}
+@media screen and (min-width:476px) and (max-width:768px){
+    .industries-Want-you-choose{
+        display: flex;
+        flex-direction: column;
+        height:30vh;
+        width: 100vw;
+        background-color: #1f1c1c;
+        margin-top:100px;
+    }
+}
+@media screen and (min-width:769px)and (max-width:1024px){
+    .industries-Want-you-choose{
+        display: flex;
+        flex-direction: column;
+        height:35vh;
+        width: 100vw;
+        background-color: #1f1c1c;
+        margin-top:100px;
+    }
+}
+
+
+.industries-sec-container{
+    display: flex;
+    flex-direction: row;
+    justify-content:flex-start;
+    align-items: center;
+}
+
+.industries-want-you-title{
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 30px;
+    color: #faf5f5;
+    padding-top: 25px;
+    padding-left: 20px;
+}
+@media screen and (min-width:1025px) and (max-width:1440px){
+    .industries-want-you-title{
+        font-family: sans-serif;
+        font-size: 30px;
+        color: #faf5f5;
+        padding-top: 25px;
+        padding-left: 20px;
+    }
+    
+}
+@media screen and (min-width:300px) and (max-width:365px){
+    .industries-want-you-title{
+        font-family: Sans-serif;
+        font-size: 11px;
+        color: #faf5f5;
+        padding-top: 18px;
+        padding-left: 15px;
+    }
+    
+}
+@media screen and (min-width:366px) and (max-width:475px){
+    .industries-want-you-title{
+        font-family: Sans-serif;
+        font-size: 16px;
+        color: #faf5f5;
+        padding-top: 25px;
+        padding-left: 20px;
+    }
+    
+}
+@media screen and (min-width:476px) and (max-width:768px){
+    .industries-want-you-title{
+        font-family: Sans-serif;
+        font-size: 20px;
+        color: #faf5f5;
+        padding-top: 25px;
+        padding-left: 20px;
+    }
+    
+}
+@media screen and (min-width:769px)and (max-width:1024px){
+    .industries-want-you-title{
+        font-family: Sans-serif;
+        font-size: 28px;
+        color: #faf5f5;
+        padding-top: 25px;
+        padding-left: 20px;
+    }
+}
+.industrial-want-crack {
+    text-decoration: none;
+    border: 1px solid rgb(146, 148, 248);
+    position: relative;
+    overflow: hidden;
+    margin-left: 200px;
+    background: transparent;
+  }
+@media screen and (min-width:1025px) and (max-width:1440px){
+    
+  .industrial-want-crack {
+    text-decoration: none;
+    border: 1px solid rgb(146, 148, 248);
+    position: relative;
+    overflow: hidden;
+    margin-left: 300px;
+    background: transparent;
+  }
+  
+}
+@media screen and (min-width:300px) and (max-width:365px){
+    
+  .industrial-want-crack {
+    text-decoration: none;
+    border: 1px solid rgb(146, 148, 248);
+    position: relative;
+    overflow: hidden;
+    margin-left: 20px;
+    height: 30px;
+    width: 70px;
+    margin-right: 10px;
+    background: transparent;
+  }
+ 
+
+}
+
+@media screen and (min-width:366px) and (max-width:475px){
+    
+  .industrial-want-crack {
+    text-decoration: none;
+    border: 1px solid rgb(146, 148, 248);
+    position: relative;
+    overflow: hidden;
+    margin-left: 20px;
+    height: 35px;
+    width: 80px;
+    margin-right: 10px;
+    background: transparent;
+  }
+ 
+}
+@media screen and (min-width:476px) and (max-width:768px){
+    
+  .industrial-want-crack {
+    text-decoration: none;
+    border: 1px solid rgb(146, 148, 248);
+    position: relative;
+    overflow: hidden;
+    margin-left: 100px;
+    height: 50px;
+    width: 120px;
+    margin-right: 10px;
+    background: transparent;
+  }
+}
+@media screen and (min-width:769px) and (max-width:1024px){
+    
+  .industrial-want-crack {
+    text-decoration: none;
+    border: 1px solid rgb(146, 148, 248);
+    position: relative;
+    overflow: hidden;
+    margin-left: 150px;
+    height: 60px;
+    width: 180px;
+    margin-right: 10px;
+    background: transparent;
+  }
+}
+.industrial-anchore {
+    font-size: 1.5rem;
+    padding: 1rem 2rem;
+    color: #f4f4f4;
+    text-transform: uppercase;
+  }
+@media screen and (min-width:1025px) and (max-width:1440px){
+    
+    .industrial-anchore {
+        font-size: 1.5rem;
+        padding: 1rem 1rem;
+        color: #f4f4f4;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+      }
+    
+  }
+  @media screen and (min-width:300px) and (max-width:365px){
+      
+    .industrial-anchore {
+        font-size: 0.8rem;
+        padding: 0.4rem 0.3rem;
+        color: #f4f4f4;
+        text-transform: uppercase;
+       
+      }
+   
+  
+  }
+  
+  @media screen and (min-width:366px) and (max-width:475px){
+      
+    .industrial-anchore {
+        font-size: 0.9rem;
+        padding: 0.4rem 0.3rem;
+        color: #f4f4f4;
+        text-transform: uppercase;
+      }
+   
+  }
+  @media screen and (min-width:476px) and (max-width:768px){
+      
+    .industrial-anchore {
+        font-size: 1.2rem;
+        padding: 1rem 1rem;
+        color: #f4f4f4;
+        text-transform: uppercase;
+      }
+  }
+  @media screen and (min-width:769px) and (max-width:1024px){
+      
+    .industrial-anchore {
+        font-size: 2rem;
+        padding: 1rem 1.5rem;
+        color: #f4f4f4;
+        text-transform: uppercase;
+        letter-spacing: 0.2rem;
+      }
+  }
+
+  .industrial-btn:hover {
+    box-shadow: 1px 1px 25px 10px rgba(146, 148, 248, 0.4);
+  }
+  
+  .industrial-btn:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -100%;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(
+      120deg,
+      transparent,
+      rgba(146, 148, 248, 0.4),
+      transparent
+    );
+    transition: all 650ms;
+  }
+  
+  .industrial-btn:hover:before {
+    left: 100%;
+  }
